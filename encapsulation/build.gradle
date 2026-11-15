@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.codeit'
+version = '0.0.1-SNAPSHOT'
+
+// 객체지향 강의 예제입니다. Spring 없이 순수 Java(21)로 작성되어 있고, 예제마다 main 메서드를 실행해 봅니다.
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
