@@ -10,6 +10,7 @@ codeit 스프링 백엔드 부트캠프 17기 "객체지향 프로그래밍의 �
 | `encapsulation` | 3. 객체지향 프로그래밍의 4가지 핵심 개념 | 캡슐화, 접근 제어자, Getter와 Setter |
 | `polymorphism` | 3. 객체지향 프로그래밍의 4가지 핵심 개념 | 다형성, 업캐스팅과 다운캐스팅, instanceof |
 | `abstraction` | 3. 객체지향 프로그래밍의 4가지 핵심 개념 | 추상 클래스, final, 인터페이스 |
+| `lecture-code` | 교안 페이지별 실행 예제 | 교안(수강생용)에 실린 실행 코드를 페이지 순서대로 모은 것. 폴더와 페이지 대응은 `lecture-code/README.md` |
 | `solid` | 4. SOLID 원칙 | SRP, OCP, LSP, ISP, DIP 전후 비교 |
 
 ## 실행 방법

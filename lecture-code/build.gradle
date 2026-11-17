@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.codeit'
+version = '0.0.1-SNAPSHOT'
+
+// 교안 "객체지향 프로그래밍의 이해"에 실린 실행 예제를 페이지별로 모았습니다. 순수 Java(21)이며, 예제마다 main 메서드를 실행합니다.
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}

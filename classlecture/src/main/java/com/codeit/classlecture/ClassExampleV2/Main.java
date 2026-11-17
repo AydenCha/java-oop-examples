@@ -2,11 +2,11 @@ package com.codeit.classlecture.ClassExampleV2;
 
 public class Main {
     public static void main(String[] args) {
-        Person jungmin = new Person();
-        jungmin.name = "jungmin";
-        jungmin.age = 30;
-        jungmin.gender = "male";
-        jungmin.job = "Developer";
+        Person kim = new Person();
+        kim.name = "김코딩";
+        kim.age = 30;
+        kim.gender = "male";
+        kim.job = "Developer";
 
         Person coding = new Person();
         coding.name = "coding";
@@ -14,9 +14,9 @@ public class Main {
         coding.gender = "female";
         coding.job = "Student";
 
-        System.out.println(jungmin);
+        System.out.println(kim);
         System.out.println(coding);
 
-        jungmin.sleep();
+        kim.sleep();
     }
 }
